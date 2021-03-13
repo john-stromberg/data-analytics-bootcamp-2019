@@ -22,12 +22,12 @@
 
   ```text
   Financial Analysis
-_____________________________
-Total Months: 86
-Total: $38382578
-Average Change: $-2315.1176470588234
-Greatest Increase In Profit: $1926159
-Greatest Decrease In Profit: $-2196167
+  ----------------------------
+  Total Months: 86
+  Total: $38382578
+  Average  Change: $-2315.12
+  Greatest Increase in Profits: Feb-2012 ($1926159)
+  Greatest Decrease in Profits: Sep-2013 ($-2196167)
   ```
 
 * In addition, the final script both prints the analysis to the terminal and exports a text file with the results.
