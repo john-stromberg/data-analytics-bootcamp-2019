@@ -12,3 +12,6 @@ dist/
 .Rproj.user/
 .Rhistory
 _targets/
+/projects/python-challenge/Resources/election_data.csv
+/projects/VBA_Homework/Multiple_year_stock_data.xlsm
+/projects/Machine-Learning-Investment-Analysis/Stocks/

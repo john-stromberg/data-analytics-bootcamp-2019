@@ -28,3 +28,22 @@ directory. There is no shared installation or unified API.
 
 Project-level GitHub Actions files are preserved as references. GitHub only runs
 workflows located under this repository's root `.github/workflows/` directory.
+
+## Large historical data
+
+The current checkout omits the following large datasets. Projects that use
+them require restoring the files to the paths shown below:
+
+- `projects/python-challenge/Resources/election_data.csv`:
+  [download from the original commit](https://github.com/john-stromberg/python-challenge/blob/56dd1690338623dafcb1ebfd410fee17d40d1da4/Resources/election_data.csv).
+- `projects/VBA_Homework/Multiple_year_stock_data.xlsm`:
+  [download from the original commit](https://github.com/john-stromberg/VBA_Homework/blob/60bf52fdb7dcb76aa1b7d30f28ac3c9fdb29aded/Multiple_year_stock_data.xlsm).
+- `projects/Machine-Learning-Investment-Analysis/Stocks/`: obtain the
+  `Stocks` folder from the
+  [original commit](https://github.com/john-stromberg/Machine-Learning-Investment-Analysis/tree/240810554e1ced993581c9960b1f9a95762fcafe/Stocks)
+  or its
+  [source archive](https://github.com/john-stromberg/Machine-Learning-Investment-Analysis/archive/240810554e1ced993581c9960b1f9a95762fcafe.zip).
+
+Jupyter checkpoint files from that project are also omitted. All omitted files
+remain in the imported Git history and the original repositories, so this
+cleanup reduces the current checkout but does not reduce the full history size.
