@@ -1,0 +1,133 @@
+{
+  "formatVersion": 1,
+  "projects": [
+    {
+      "name": "python-challenge",
+      "path": "projects/python-challenge",
+      "source": "https://github.com/john-stromberg/python-challenge",
+      "branch": "master",
+      "commit": "56dd1690338623dafcb1ebfd410fee17d40d1da4",
+      "tree": "2b91cc93dff94cf7567bc3c5cf3e802bee795a51"
+    },
+    {
+      "name": "VBA_Homework",
+      "path": "projects/VBA_Homework",
+      "source": "https://github.com/john-stromberg/VBA_Homework",
+      "branch": "master",
+      "commit": "60bf52fdb7dcb76aa1b7d30f28ac3c9fdb29aded",
+      "tree": "fd09dc5b0ea53cb2a18dba54094aacf977872a8a"
+    },
+    {
+      "name": "pandas-challenge",
+      "path": "projects/pandas-challenge",
+      "source": "https://github.com/john-stromberg/pandas-challenge",
+      "branch": "master",
+      "commit": "4942b04f6cf83ad855a26607f2a2813fc9696fe6",
+      "tree": "054eaa3850e241177086560e3ebed5768ff75919"
+    },
+    {
+      "name": "matplotlib-challenge",
+      "path": "projects/matplotlib-challenge",
+      "source": "https://github.com/john-stromberg/matplotlib-challenge",
+      "branch": "master",
+      "commit": "cffa66e89ae7fc0626a9fdbd9749dab9a886c24b",
+      "tree": "487dc8977d6f7b784cffdfba476bff55042a7e13"
+    },
+    {
+      "name": "python-api-challenge",
+      "path": "projects/python-api-challenge",
+      "source": "https://github.com/john-stromberg/python-api-challenge",
+      "branch": "master",
+      "commit": "c6052b96d4f7c5662be3fdbf3c7b2e877a550c2e",
+      "tree": "05b01023d4e9c5eb55369f636707283eb975ad9c"
+    },
+    {
+      "name": "sql-challenge",
+      "path": "projects/sql-challenge",
+      "source": "https://github.com/john-stromberg/sql-challenge",
+      "branch": "master",
+      "commit": "8cabd0bf285bc8ce84fd56250b0099ccc4e91625",
+      "tree": "99dd567d78b206e2b40fe8246fe8a6080ebd8f93"
+    },
+    {
+      "name": "sqlalchemy-challenge",
+      "path": "projects/sqlalchemy-challenge",
+      "source": "https://github.com/john-stromberg/sqlalchemy-challenge",
+      "branch": "master",
+      "commit": "878181ffd2a3364dbff5c3328961687c93d876d4",
+      "tree": "1e422c0878b7549124fdfa67f136fe9c691e2a76"
+    },
+    {
+      "name": "web-scraping-challenge",
+      "path": "projects/web-scraping-challenge",
+      "source": "https://github.com/john-stromberg/web-scraping-challenge",
+      "branch": "master",
+      "commit": "a7c4339d62a26a608e711a1e9c40b4f74c7ad9bf",
+      "tree": "03057098b74e3000a716627c93f2ff64fa659d21"
+    },
+    {
+      "name": "Web-Design-Challenge",
+      "path": "projects/Web-Design-Challenge",
+      "source": "https://github.com/john-stromberg/Web-Design-Challenge",
+      "branch": "master",
+      "commit": "5e4cc03436e2ab93644086f4c9cef96e7870a397",
+      "tree": "19c8b841564249bddb6af7d8db8ece3e80eb2f20"
+    },
+    {
+      "name": "javascript-challenge",
+      "path": "projects/javascript-challenge",
+      "source": "https://github.com/john-stromberg/javascript-challenge",
+      "branch": "master",
+      "commit": "1a9f2ed90d5f57160f7a050227462caac0808574",
+      "tree": "c47490e825dffc38d67f0bfbaac04edef6775249"
+    },
+    {
+      "name": "Plot.ly-challenge",
+      "path": "projects/Plot.ly-challenge",
+      "source": "https://github.com/john-stromberg/Plot.ly-challenge",
+      "branch": "master",
+      "commit": "ec795a750e6e7f5f03089bd10d5cd59611c3331a",
+      "tree": "2121b2453391d389dc6606b9a9708c995e89ebe2"
+    },
+    {
+      "name": "D3-challenge",
+      "path": "projects/D3-challenge",
+      "source": "https://github.com/john-stromberg/D3-challenge",
+      "branch": "master",
+      "commit": "fad3bf49fedb0997c3ed7d81b2bb8481c67715c0",
+      "tree": "2b47add8ce88846c3d09de4676c82365effe5a99"
+    },
+    {
+      "name": "leaflet-challenge",
+      "path": "projects/leaflet-challenge",
+      "source": "https://github.com/john-stromberg/leaflet-challenge",
+      "branch": "master",
+      "commit": "55eb55e9c7b8f29afd8c45d89d59beee134faa69",
+      "tree": "566d8cf07d8d0a4d6e841051bd7fe5e49093c0c7"
+    },
+    {
+      "name": "DataProject1",
+      "path": "projects/DataProject1",
+      "source": "https://github.com/john-stromberg/DataProject1",
+      "branch": "develop",
+      "commit": "837ebff0cec58ec6e60bdf2a2ace245949bb32d0",
+      "tree": "33140dd491409f26004f2c6ac1a8bda0fcdf6544"
+    },
+    {
+      "name": "Crime-Data-ETL-Project",
+      "path": "projects/Crime-Data-ETL-Project",
+      "source": "https://github.com/john-stromberg/Crime-Data-ETL-Project",
+      "branch": "master",
+      "commit": "8d477e3b2118da4480b1291c5dd4a77dd9baf1a3",
+      "tree": "5be33b96317e29c9c24aed8ce2e05f3adb1a77d6"
+    },
+    {
+      "name": "Machine-Learning-Investment-Analysis",
+      "path": "projects/Machine-Learning-Investment-Analysis",
+      "source": "https://github.com/john-stromberg/Machine-Learning-Investment-Analysis",
+      "branch": "master",
+      "commit": "240810554e1ced993581c9960b1f9a95762fcafe",
+      "tree": "53ad018417dd3c389155a8245b62decd865b22db"
+    }
+  ]
+}
