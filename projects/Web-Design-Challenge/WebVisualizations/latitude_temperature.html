@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Weather Data Visualization Dashboard</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Latitude</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown active">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Plots
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="latitude_cloudiness.html">Latitude vs Cloudiness</a>
+                <a class="dropdown-item" href="latitude_humidity.html">Latitude vs Humidity</a>
+                <a class="dropdown-item" href="latitude_temperature.html">Latitude vs Temperature</a>
+                <a class="dropdown-item" href="latitude_wind_speed.html">Latitude vs Wind Speed</a>
+              </div>
+              <li class="nav-item active">
+                <a class="nav-link" href="comparison.html">Comparison<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="data.html">Data</a>
+              </li>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7 col-md-12">
+            <div class="box">
+              <h3 class="title">Temperature</h3>
+              <hr>
+              <img src="visualizations\latitude_temperature.png" alt="Cloudines">
+              <p>Max temperature increases as latitude approaches 0, or as latitude approaches the equator. 
+                However, temperature does max out at around 20 degress latitude not right at the equator.</p>
+            </div>
+          </div>
+          <div class="col-lg-5 col-md-12">
+            <div class="box">
+              <h5 class="title">Visualizations</h5>
+              <hr>
+              <div class="container">
+                <div class="row" style="padding-bottom: 30px;">
+                  <div class="col-6">
+                    <a href="latitude_temperature.html">
+                      <img class="panel" src="visualizations\latitude_temperature.png" alt="Temperature" width="200" height="175">
+                    </a>
+                  </div>
+                  <div class="col-6">
+                    <a href="latitude_humidity.html">
+                      <img class="panel" src="visualizations\latitude_humidity.png" alt="Humidity" width="200" height="175">
+                    </a>
+                  </div>
+                </div>
+                <div class="row" style="padding-bottom: 30px;">
+                  <div class="col-6">
+                    <a href="latitude_cloudiness.html">
+                      <img class="panel active" src="visualizations\latitude_cloudiness.png" alt="Cloudiness" width="200" height="175">
+                    </a>
+                  </div>
+                  <div class="col-6">
+                    <a href="latitude_wind_speed.html">
+                      <img class="panel" src="visualizations\latitude_wind_speed.png" alt="Wind Speed" width="200" height="175">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </body>
+  </html>    
